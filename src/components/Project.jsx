@@ -32,13 +32,6 @@ export const projectsData = [
   },
 
   {
-    image: superhero2,
-    title: "Superhero app",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eos incidunt officia blanditiis ipsum quasi maiores illo rerum aspernatur, eligendi ea provident ratione iusto libero voluptatem hic ullam modi laborum?",
-    technologies: ["HTML", "CSS", "JavaScript", "React"]
-  },
-
-  {
     image: tesla,
     title: "Tesla landing",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eos incidunt officia blanditiis ipsum quasi maiores illo rerum aspernatur, eligendi ea provident ratione iusto libero voluptatem hic ullam modi laborum?",
@@ -76,7 +69,7 @@ const ScrollReveal = ({children}) => {
 export const ProjectCard = ({project}) => {
   return(
     <ScrollReveal>
-      <div className='flex flex-col items-center gap-8 md:flex-row
+      <div id='proyect' className='flex flex-col items-center gap-8 md:flex-row
       md:gap-24'>
         <img src={project.image} alt="" className='w-full
         cursor-pointer rounded-2xl transition-all duration-300

@@ -21,19 +21,23 @@ export const Navbar = () => {
 
       <ul className='hidden md:flex gap-10'>
         <a href="#home" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>
-          <li>Home</li>
+          <li>Inicio</li>
+        </a>
+
+        <a href="#experience" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>
+          <li>Experiencia</li>
         </a>
 
         <a href="#tech" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>
-          <li>Tech</li>
+          <li>Tecnologías</li>
         </a>
 
         <a href="#proyect" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>
-          <li>Proyects</li>
+          <li>Proyectos</li>
         </a>
 
         <a href="#contact" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>
-          <li>Contact</li>
+          <li>Contacto</li>
         </a>
 
       </ul>
@@ -42,20 +46,26 @@ export const Navbar = () => {
 
       <li className='cursor-pointer text-xl opacity-70
         transition-all duration-300 hover:text-green-500
-        hover:opacity-100'>
-          <BsWhatsapp/>
+        hover:opacity-100' href="//wa.me/1134140202">
+          <a href="//wa.me/5491134140202">
+          <BsWhatsapp/> 
+          </a>
         </li>
         
         <li className='cursor-pointer text-xl opacity-70
         transition-all duration-300 hover:text-blue-500
         hover:opacity-100'>
-          <BsLinkedin/>
+          <a href="https://www.linkedin.com/in/ezequiel-baeza-166727229">
+            <BsLinkedin/>
+          </a>
         </li>
 
         <li className='cursor-pointer text-xl opacity-70
         transition-all duration-300 hover:text-red-500
         hover:opacity-100'>
-          <BsGithub/>
+          <a href="https://github.com/EzeBaeza">
+            <BsGithub/>
+          </a>
         </li>
 
       </ul>
@@ -73,19 +83,23 @@ export const Navbar = () => {
 
           <ul className='flex flex-col gap-8'>
             <a href="#home" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>
-              <li>Home</li>
+              <li>Inicio</li>
             </a>
 
-          <a href="#tech" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>
-              <li>Tech</li>
+            <a href="#experience" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>
+              <li>Experiencia</li>
+            </a>
+
+            <a href="#tech" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>
+              <li>Tecnologías</li>
             </a>
 
             <a href="#proyect" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>
-              <li>Proyects</li>
+              <li>Proyectos</li>
             </a>
 
             <a href="#contact" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>
-              <li>Contact</li>
+              <li>Contacto</li>
             </a>
           </ul>
 

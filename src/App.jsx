@@ -4,6 +4,7 @@ import { Hero } from "./components/Hero";
 import { Tech } from "./components/Tech";
 import { Project } from "./components/Project";
 import { Contact } from "./components/Contact";
+import { Experience } from "./components/Experience";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <main className="flex flex-col items-center px-4 md:px-8 lg:px-16">
         <Navbar/>
         <Hero/>
+        <Experience/>
         <Tech/>
         <Project/>
         <Contact/>
