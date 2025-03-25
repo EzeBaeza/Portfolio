@@ -96,12 +96,6 @@ export const Navbar = () => {
           </ul>
 
           <ul className='flex flex-wrap gap-4'>
-
-            <li className='cursor-pointer text-xl opacity-70
-              transition-all duration-300 hover:text-green-500
-              hover:opacity-100'>
-                <BsWhatsapp/>
-              </li>
               
               <li className='cursor-pointer text-xl opacity-70
               transition-all duration-300 hover:text-blue-500
